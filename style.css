@@ -1,0 +1,20 @@
+weather-widget {
+    --widget-background-color: #fff;
+    --widget-font-color: #000;
+    --widget-font-size: 16px;
+  }
+  
+  weather-widget .widget-container {
+    background-color: var(--widget-background-color);
+    color: var(--widget-font-color);
+    font-size: var(--widget-font-size);
+    padding: 10px;
+  }
+  
+  weather-widget h2 {
+    color: blue;
+  }
+  
+  weather-widget .temperature {
+    font-weight: bold;
+  }
